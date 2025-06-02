@@ -8,22 +8,26 @@
     text-align: center;
     background-color: #011e29;
     color: white;
-    padding: 20px; /* Added padding for better appearance */
+    padding: 20px;
 }
 
 .latest-news-section, .main-article, .pictorial-news-section {
     background-color: white;
-    border-radius: 10px; /* Rounded corners */
-    margin: 10px 0; /* Space between sections */
-    padding: 20px; /* Padding inside sections */
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
 }
 
 .latest-news-section ul {
     list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
+    padding: 0;
+}
+
+.pictorial-news-section {
+    text-align: center; /* Ensure this is set to center */
 }
 
 .pictorial-news-section img {
-    width: 130px; /* Set image width */
-    margin: 10px; /* Space between images */
+    width: 130px;
+    margin: 10px;
 }
