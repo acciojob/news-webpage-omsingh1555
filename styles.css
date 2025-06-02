@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+.container{
+    background-color:#f5f5f5;
+	width:650px;
+}
+.header{
+	text-align:center;
+	background-color:#011e29;
+	color:white;
+    height:50px;
+}
+.latest-news-section{
+	background-color:white;
+	text-align:center;
+	width:200px;
+	font-size:10px;
+	height:120px;
+	padding-top:20px;
+	margin:9px;
+	border-radius:20px;
+}
+.Main_article{
+
+	background-color:white;
+	text-align:center;
+	width:250px;
+	font-size:10px;
+	height:140px;
+	padding-top:20px;
+	margin-left:215px;
+	border-radius:20px;
+	position:relative;
+	bottom:150px;
+}
+.pictorial-news-section{
+	text-align:center;
+	width:150px;
+	background-color:white;
+	position:relative;
+	left:470px;
+	bottom:320px;
+	font-size:10px;
+	padding-bottom:30px;
+
+}
+img{
+	width:130px;
+	display:flex;
+	padding:10px;
+    
+}
